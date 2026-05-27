@@ -1,6 +1,6 @@
 # 🌿 InAmigos Foundation — Internship Tasks
 
-**Intern:** Dhanika Bhat
+**Intern:** Dhanika Bhat  
 **Organization:** InAmigos Foundation, Bilaspur, Chhattisgarh  
 **Internship Program:** Project Vikas  
 
@@ -23,5 +23,4 @@ InAmigos Foundation is a Section 8 registered NGO based in Bilaspur, Chhattisgar
 💼 LinkedIn: https://in.linkedin.com/company/inamigos-foundation  
 
 #InAmigos #ProjectVikas #InAmigosFoundation
-
 
