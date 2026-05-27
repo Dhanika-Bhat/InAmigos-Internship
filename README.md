@@ -1,6 +1,6 @@
 # 🌿 InAmigos Foundation — Internship Tasks
 
-**Intern:** Your Name  
+**Intern:** Dhanika Bhat
 **Organization:** InAmigos Foundation, Bilaspur, Chhattisgarh  
 **Internship Program:** Project Vikas  
 
