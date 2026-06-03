@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>inamigos Foundation | Youth Digital Mentorship & Support</title>
+  <meta name="description" content="inamigos is a non-governmental organization dedicated to connecting underprivileged youth with volunteer mentors for digital literacy, companionship, and educational empowerment.">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo" id="logo">
+        <span class="logo-dot"></span>
+        <div class="logo-text">in<span>amigos</span></div>
+      </a>
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About Us</a></li>
+          <li><a href="#programs" class="nav-link">Our Programs</a></li>
+          <li><a href="#donate" class="nav-link">Donate & Impact</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><button class="nav-cta" onclick="location.href='#donate'">Donate Now</button></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <canvas class="hero-canvas" id="hero-canvas"></canvas>
+    <div class="container hero-grid">
+      <div class="hero-content reveal">
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          inamigos foundation
+        </div>
+        <h1 class="hero-title">
+          Bridging Gaps, Building
+          <span class="text-gradient">Amigos for Life</span>
+        </h1>
+        <p class="hero-desc">
+          We connect passionate volunteer mentors (Amigos) with underprivileged students. Through digital education, emotional support, and shared learning materials, we empower children to thrive in the modern age.
+        </p>
+        <div class="hero-actions">
+          <a href="#donate" class="btn btn-primary">
+            Donate & Get Certificate
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+          <a href="#about" class="btn btn-secondary">Our Story</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="hero-orb"></div>
+        <div class="visual-hub">
+          <div class="visual-logo">amigos</div>
+        </div>
+        <!-- Floating Cards -->
+        <div class="floating-card fc-1">
+          <div class="fc-icon">👥</div>
+          <div class="fc-info">
+            <span class="fc-title">Active Mentors</span>
+            <span class="fc-value">320+ Amigos</span>
+          </div>
+        </div>
+        <div class="floating-card fc-2">
+          <div class="fc-icon">🎓</div>
+          <div class="fc-info">
+            <span class="fc-title">Kids Impacted</span>
+            <span class="fc-value">1,840 Children</span>
+          </div>
+        </div>
+        <div class="floating-card fc-3">
+          <div class="fc-icon">💻</div>
+          <div class="fc-info">
+            <span class="fc-title">Tech Kit Hub</span>
+            <span class="fc-value">450+ Distributed</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div class="about-visual reveal">
+        <div class="about-visual-content">
+          <div class="about-stat-ring">
+            <span class="about-stat-val">2K+</span>
+            <span class="about-stat-lbl">Smiles Created</span>
+          </div>
+          <p style="font-weight: 600; font-family: var(--font-display); color: var(--text-primary);">Empowerment Hub</p>
+        </div>
+      </div>
+      <div class="about-content reveal">
+        <span class="section-subtitle">Who We Are</span>
+        <h3>Bridging the digital and companionship gap for kids</h3>
+        <p>
+          We believe that lack of resources shouldn't hold back a child's curiosity. By pairing students with dedicated mentors, we deliver interactive workshops, computer kits, and continuous mentorship.
+        </p>
+        <p>
+          At inamigos, our volunteers aren't just teachers—they are lifelong companions who guide students through homework, career choices, creative writing, and digital tools. We build friendship networks that last.
+        </p>
+        <div class="about-features">
+          <div class="about-feat">
+            <div class="about-feat-icon">🏫</div>
+            <div class="about-feat-info">
+              <h4>Digital Classrooms</h4>
+              <p>Setting up learning hubs in underprivileged areas with internet access.</p>
+            </div>
+          </div>
+          <div class="about-feat">
+            <div class="about-feat-icon">💖</div>
+            <div class="about-feat-info">
+              <h4>Companionship Model</h4>
+              <p>Ensuring every child receives individual empathy, friendship, and guidance.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Programs Section -->
+  <section class="section" id="programs" style="background: rgba(255, 255, 255, 0.01);">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">What We Do</span>
+        <h2 class="section-title">Nurturing Growth & Possibilities</h2>
+      </div>
+
+      <div class="services-grid">
+        <!-- Program 1 -->
+        <div class="service-card service-card-1 reveal">
+          <div class="service-icon">🤝</div>
+          <h3 class="service-title">Active Mentorship</h3>
+          <p class="service-desc">
+            Pairing students with a companion for weekly interactive calls, career counseling, homework support, and creative storytelling sessions.
+          </p>
+          <ul class="service-features">
+            <li>1-on-1 Dedicated Support</li>
+            <li>Weekly Engagement Modules</li>
+            <li>Social & Soft Skills Training</li>
+          </ul>
+        </div>
+
+        <!-- Program 2 -->
+        <div class="service-card service-card-2 reveal">
+          <div class="service-icon">💻</div>
+          <h3 class="service-title">Digital Literacy</h3>
+          <p class="service-desc">
+            Teaching essential software tools, web fundamentals, code basics, and creative design skills to prepare students for tomorrow.
+          </p>
+          <ul class="service-features">
+            <li>Introductory Computer Labs</li>
+            <li>Logic & Coding Basics</li>
+            <li>Internet Safety Modules</li>
+          </ul>
+        </div>
+
+        <!-- Program 3 -->
+        <div class="service-card service-card-3 reveal">
+          <div class="service-icon">📚</div>
+          <h3 class="service-title">Kit Provisioning</h3>
+          <p class="service-desc">
+            Sponsoring educational text packs, physical science items, writing tools, and recycled laptops straight to students' homes.
+          </p>
+          <ul class="service-features">
+            <li>Recycled Devices Support</li>
+            <li>Full Stationery Bundles</li>
+            <li>Offline Learning Books</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Donation & Impact Section -->
+  <section class="section" id="donate">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Make an Impact</span>
+        <h2 class="section-title">Support an Amigo</h2>
+      </div>
+
+      <div class="donation-grid">
+        <!-- Donation Info & Tiers -->
+        <div class="donation-info reveal">
+          <h3>Your support drives real transformation</h3>
+          <p>
+            Your donations go directly toward setting up study hubs, purchasing learning devices, and training our volunteers. We are fully transparent—every contribution changes a student's narrative.
+          </p>
+          
+          <div class="impact-list">
+            <div class="impact-item">
+              <div class="impact-badge">🌱</div>
+              <div class="impact-desc">
+                <h4>₹100 Tier</h4>
+                <p>Provides a full box of learning books, notebook sets, and colors for 1 child.</p>
+              </div>
+            </div>
+            <div class="impact-item">
+              <div class="impact-badge">🎁</div>
+              <div class="impact-desc">
+                <h4>₹200 Tier</h4>
+                <p>Equips a student with an educational kit and access to our weekly coding sessions.</p>
+              </div>
+            </div>
+            <div class="impact-item">
+              <div class="impact-badge">📡</div>
+              <div class="impact-desc">
+                <h4>₹500 Tier</h4>
+                <p>Covers a local community center's high-speed internet and digital learning materials for a month.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Donation Form Box -->
+        <div class="donation-box reveal">
+          <form id="donation-form">
+            <div class="form-group">
+              <label for="donor-name" class="form-label">Full Name (for certificate)</label>
+              <input type="text" id="donor-name" class="form-input" placeholder="Alex Morgan" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="donor-email" class="form-label">Email Address</label>
+              <input type="email" id="donor-email" class="form-input" placeholder="alex@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="donor-purpose" class="form-label">Direct Contribution To</label>
+              <select id="donor-purpose" class="form-input" style="background-color: #0c0d1b;" required>
+                <option value="" disabled selected>Select an area</option>
+                <option value="Active Mentorship">Active Mentorship Hubs</option>
+                <option value="Digital Literacy">Digital Literacy Kits</option>
+                <option value="Kit Provisioning">Device & Book Sourcing</option>
+                <option value="General Support">General Community Fund</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Contribution Amount (₹)</label>
+              <div class="donation-chips" id="donation-chips">
+                <div class="donation-chip" data-amount="100">₹100</div>
+                <div class="donation-chip active" data-amount="200">₹200</div>
+                <div class="donation-chip" data-amount="500">₹500</div>
+                <div class="donation-chip" data-amount="700">₹700</div>
+                <div class="donation-chip" data-amount="1000">₹1000</div>
+              </div>
+              <input type="number" id="donor-amount" class="form-input" placeholder="Custom Amount (₹)" min="1" value="200" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+              Donate & Get Certificate
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dynamic Certificate Modal Overlay -->
+  <div class="modal-overlay" id="certificate-modal">
+    <div class="modal-content">
+      <button class="close-modal" id="close-modal-btn" aria-label="Close modal">&times;</button>
+      <h3 class="modal-title">Certificate Generated!</h3>
+      <p class="modal-desc">Thank you for your generous contribution. We appreciate your partnership in change.</p>
+      
+      <div class="certificate-canvas-container">
+        <!-- Landscape certificate layout -->
+        <canvas id="certificate-canvas" width="800" height="560"></canvas>
+      </div>
+
+      <div class="modal-actions">
+        <button id="download-cert-btn" class="btn btn-primary">
+          Download PDF/PNG
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+        </button>
+        <button id="close-cert-btn" class="btn btn-secondary">Close Window</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact" style="background: rgba(255,255,255,0.01);">
+    <div class="container contact-container">
+      <div class="contact-info reveal">
+        <span class="section-subtitle">Join the Family</span>
+        <h3>Get in touch to make a difference</h3>
+        <p>
+          We are constantly searching for volunteer mentors, corporate device donors, and local organization partners. Join hands with us today.
+        </p>
+        <div class="contact-methods">
+          <div class="contact-card">
+            <div class="cc-icon">✉️</div>
+            <div class="cc-details">
+              <h4>Write to Us</h4>
+              <p>amigos@inamigos.org</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="cc-icon">📍</div>
+            <div class="cc-details">
+              <h4>Main Office</h4>
+              <p>Digital Hub, Bangalore, India</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-box reveal">
+        <div class="form-status" id="form-status"></div>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="form-name" class="form-label">Full Name</label>
+            <input type="text" id="form-name" class="form-input" placeholder="John Doe" required>
+          </div>
+          <div class="form-group">
+            <label for="form-email" class="form-label">Email Address</label>
+            <input type="email" id="form-email" class="form-input" placeholder="john@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="form-category" class="form-label">Subject</label>
+            <select id="form-category" class="form-input" style="background-color: #0c0d1b;" required>
+              <option value="" disabled selected>Select an option</option>
+              <option value="volunteer">Become a Mentor (Amigo)</option>
+              <option value="device">Donate Laptops/Devices</option>
+              <option value="partner">Corporate Sponsorship</option>
+              <option value="inquiry">General Inquiry</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="form-msg" class="form-label">Tell us more</label>
+            <textarea id="form-msg" class="form-input" placeholder="How would you like to contribute or volunteer?" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+            Send Message
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="#home" class="footer-logo">
+          <span class="logo-dot"></span>
+          <div class="logo-text">in<span>amigos</span></div>
+        </a>
+        <ul class="footer-links">
+          <li><a href="#home" class="footer-link">Home</a></li>
+          <li><a href="#about" class="footer-link">About Us</a></li>
+          <li><a href="#programs" class="footer-link">Programs</a></li>
+          <li><a href="#donate" class="footer-link">Donate</a></li>
+          <li><a href="#contact" class="footer-link">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2026 inamigos Foundation. All rights reserved. Registered Charity Trust.</p>
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="Github">🛠️</a>
+          <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+          <a href="#" class="social-link" aria-label="LinkedIn">💼</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
